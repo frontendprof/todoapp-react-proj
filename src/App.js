@@ -5,11 +5,15 @@ import './App.css';
 class App extends React.Component{
   render(){
     return(
-      <>
-      <h1>Assalaamu aleykom.</h1>
-      <h1>Iydul Fitr Mubarak.</h1>
-      </>
-    )
+      <div className="App">
+        <header>
+          <form id="to-do-form">
+            <input type="text" placeholder="Enter text"/>
+            <button type="submit">Add</button>
+          </form>
+        </header>
+      </div>
+    );
   }
 }
 
